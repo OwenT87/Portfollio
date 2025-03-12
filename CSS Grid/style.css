@@ -23,11 +23,21 @@
 
 .box h2 {
     background-color: blue;
-    margin-top: 0px;
+    margin: 0px;
     padding: .5em;
+   
 }
 
-#box1 {
+a {
+    color: black;
+}
+
+.box p {
+    margin-top: 0px;
+    padding-top: 3px;
+}
+
+/* #box1 {
 
 }
 
@@ -60,9 +70,9 @@
 
 #box9 {
 
-}
+} */
 
-.post {
+ .post {
     display: grid;
     grid-gap: .5rem;
     grid-template-columns: [full-start] minmax(1em, 1fr) 
@@ -77,5 +87,5 @@ img {
 
 .main {
     grid-column: main;
-}
+} 
 
